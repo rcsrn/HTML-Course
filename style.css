@@ -16,12 +16,15 @@ body {
 .search-bar{
     text-align: center;
     font-weight: bold;
+    height: 80px;
 }
 
 .search{
     text-align: center;
+    font-size: 15px;
     padding: 0px, 1003px, 1513px;
     width: 500px;
+    height: 25px;
     background-color: rgb(235, 235, 235);
     border: 1px solid rgb(92, 86, 23);
 }
