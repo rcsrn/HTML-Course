@@ -13,7 +13,11 @@
 .source-buttons {
     height: 60px;
     margin-top: 18px;
-    margin-left: 1240px;
+    margin-left: 1255px;
+}
+
+.top-buttons {
+    height: 32px;
 }
 
 .nine-dots {
@@ -27,11 +31,26 @@
 }
 
 .perfil-image {
-    vertical-align: top;
+    vertical-align: center;
     margin-left: 18px;
     background-size: 32px 32px ;
     font-size: 13px;
     border-radius: 50px;
     width: 32px;
     margin-bottom: 1px;
+}
+
+.google-container {
+    align-items: center;
+}
+
+.google-image-container {
+    text-align: center;
+}
+
+.google-image {
+    vertical-align: top;
+    width: 380px;
+    position: relative;
+    top: 15px;
 }
