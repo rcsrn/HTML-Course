@@ -1,0 +1,23 @@
+.images-button, .gmail-button {
+    background-color: rgb(184, 130, 94);
+    border-radius: 100px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    margin-left: 14px;
+}
+
+.source-buttons {
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 1060px;
+}
+
+.nine-dots {
+    width:30px;
+    fill: rgb(95, 99, 104);
+}
+
+.nine-dots-container{
+    
+}
