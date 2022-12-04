@@ -46,6 +46,7 @@
 
 .google-image-container {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .google-image {
@@ -53,4 +54,47 @@
     width: 380px;
     position: relative;
     top: 15px;
+}
+
+.search-bar-container {
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+    height: 2000px;
+}
+
+.search-bar {
+    width: 560px;
+    height: 39px;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    border-color: gray;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    left: 50px;
+    outline: none;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 8px rgb(205, 205, 205);
+}
+
+
+.lens {
+    height: 20px;
+    vertical-align: middle;
+    fill: rgb(154, 160, 166);
+}
+
+.mic-icon {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.cam-icon {
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 18px;
 }
