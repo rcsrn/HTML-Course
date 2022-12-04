@@ -51,7 +51,7 @@
 
 .google-image {
     vertical-align: top;
-    width: 380px;
+    width: 494px;
     position: relative;
     top: 15px;
 }
@@ -73,7 +73,7 @@
     border-color: gray;
     border: 1px solid #dcdcdc;
     position: relative;
-    left: 50px;
+    left: 460px;
     outline: none;
 }
 
@@ -81,20 +81,25 @@
     box-shadow: 1px 1px 8px rgb(205, 205, 205);
 }
 
-
 .lens {
     height: 20px;
     vertical-align: middle;
     fill: rgb(154, 160, 166);
+    position: relative;
+    left: 480px;
 }
 
 .mic-icon {
     height: 20px;
     vertical-align: middle;
+    position: relative;
+    left: 380px;
 }
 
 .cam-icon {
-    height: 25px;
+    height: 23px;
     vertical-align: middle;
     margin-left: 18px;
+    position: relative;
+    left: 380px;
 }
