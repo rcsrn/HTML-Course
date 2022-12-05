@@ -7,25 +7,13 @@
 .super-user-row{
     height: 56px;
     width: 319px;
+    vertical-align: top;
+    margin-bottom: 10px;
 }
 
 .super-image-container {
     display: inline-block;
     height: 66px;
-}
-
-p {
-    vertical-align: top;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.switch-button {
-    color:rgb(0, 149, 246);
-    border: none;
-    background-color: white;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 .super-image {
@@ -36,18 +24,79 @@ p {
 .super-user-info-container {
     display: inline-block;
     width: 198.325px;
+    height: 56px;
+    vertical-align: top;
+}
+
+p {
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+}
+
+.super-username {
+    font-family: -apple-system,system-ui,
+    BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,
+    sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.super-real-name {
+    font-family: -apple-system,system-ui,
+    BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,
+    sans-serif;
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    left: 10px;
 }
 
 .switch-container {
     display: inline-block;
+    text-align: center;
+}
+
+.switch-button {
+    color:rgb(0, 149, 246);
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    bottom: 26px;
 }
 
 .suggest-container{
     display: inline-block;
+    margin-right: 120px;
+}
+
+.suggest {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(142, 142, 142);
+    margin-left: 0px;
 }
 
 .see-all-container {
     display: inline-block;
+}
+
+.see-all {
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .user-row {
