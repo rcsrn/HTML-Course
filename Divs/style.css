@@ -10,6 +10,10 @@
     vertical-align: top;
 }
 
+.images-button:hover, .gmail-button:hover {
+    text-decoration: underline;
+}
+
 .source-buttons {
     height: 60px;
     margin-top: 18px;
@@ -27,17 +31,30 @@
     margin-left: 9px;
     width:24px;
     fill: rgb(95, 99, 104);
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 100px;
     opacity: 1;
 }
 
+.nine-dots:hover {
+    background-color: rgb(239, 239, 239);
+}
+
 .perfil-image {
-    vertical-align: center;
-    margin-left: 18px;
+    vertical-align: top;
+    margin-left: 5px;
     background-size: 32px 32px ;
     font-size: 13px;
     border-radius: 50px;
     width: 32px;
     margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.perfil-image:hover {
+
 }
 
 .google-container {
@@ -57,11 +74,8 @@
 }
 
 .search-bar-container {
-    text-align: center;
     border-radius: 30px;
     margin: 0 auto;
-    text-align: center;
-    height: 2000px;
 }
 
 .search-bar {
@@ -102,4 +116,38 @@
     margin-left: 18px;
     position: relative;
     left: 380px;
+}
+
+.middle-buttons-container {
+    padding: 18px;
+   text-align: center; 
+}
+
+.buscar-button, .suerte-button {
+    vertical-align: top;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px;
+    border: 1px;
+    width: 150.63px;
+    height: 36px;
+    font-size: 14px;
+    color: rgb(64, 60, 67);
+    background-color: rgb(248, 249, 250);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.suerte-button:hover, .buscar-button:hover {
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.suerte-button:focus, .buscar-button:focus {
+    border: 1px solid rgb(11, 122, 250);
+}
+
+.latinoamerica-container {
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: rgb(76, 76, 79);
 }
