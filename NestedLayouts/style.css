@@ -1,0 +1,51 @@
+.general-container {
+    display: inline-block;
+    width: 319px;
+    height: 171px;
+}
+
+.super-user-row{
+    height: 56px;
+    width: 319px;
+}
+
+.super-image-container {
+    display: inline-block;
+    height: 66px;
+}
+
+.super-user-info-container {
+    display: inline-block;
+    width: 198.325px;
+}
+
+.switch-container {
+    display: inline-block;
+}
+
+.suggest-container{
+    display: inline-block;
+}
+
+.see-all-container {
+    display: inline-block;
+}
+
+.user-row {
+
+}
+
+.image-container {
+    display: inline-block;
+    height: 18px;
+}
+
+.user-info-container {
+    display: inline-block;
+    width: 225px;
+    height: 30px;
+}
+
+.follow-container {
+    display: inline-block;
+}
