@@ -53,14 +53,6 @@
     cursor: pointer;
 }
 
-.perfil-image:hover {
-
-}
-
-.google-container {
-    align-items: center;
-}
-
 .google-image-container {
     text-align: center;
     margin-bottom: 40px;
@@ -68,9 +60,10 @@
 
 .google-image {
     vertical-align: top;
-    width: 494px;
+    width: 430px;
     position: relative;
     top: 15px;
+    right: 25px;
 }
 
 .search-bar-container {
@@ -100,14 +93,14 @@
     vertical-align: middle;
     fill: rgb(154, 160, 166);
     position: relative;
-    left: 480px;
+    left: -94px;
 }
 
 .mic-icon {
     height: 20px;
     vertical-align: middle;
     position: relative;
-    left: 380px;
+    left: 362px;
 }
 
 .cam-icon {
@@ -115,7 +108,7 @@
     vertical-align: middle;
     margin-left: 18px;
     position: relative;
-    left: 380px;
+    left: 358px;
 }
 
 .middle-buttons-container {
