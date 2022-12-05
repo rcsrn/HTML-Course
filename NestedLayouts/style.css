@@ -36,6 +36,7 @@ p {
 }
 
 .super-username {
+    color: rgb(38, 38, 38);
     font-family: -apple-system,system-ui,
     BlinkMacSystemFont,"Segoe UI",
     Roboto,"Helvetica Neue",Arial,
@@ -100,7 +101,25 @@ p {
 }
 
 .user-row {
+    margin-top: 10px;
+}
 
+.user1-image {
+    height: 32px;
+    border-radius: 50px;
+}
+
+.user-info-container {
+    vertical-align: top;
+}
+
+.user-info {
+    color: rgb(38, 38, 38);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 2px;
 }
 
 .image-container {
