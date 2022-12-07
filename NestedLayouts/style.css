@@ -149,3 +149,10 @@ p {
     vertical-align: top;
     cursor: pointer;
 }
+
+.extra-info {
+    margin-top: 3px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142, 142, 142);
+}
