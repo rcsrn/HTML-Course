@@ -3,7 +3,7 @@ body {
 }
 
 .top-container {
-    height: 25vh;
+    height: 10vh;
     text-align: right;
 }
 
@@ -40,28 +40,35 @@ body {
 }
 
 .search-bar {
-    text-indent: 0.5em;
+    text-indent: 10px;
     font-size: 18px;
     width: 528px;
     height: 25px;
     border: none;
     border-radius: 10px;
+    padding: 0px 35px 0px 0px;
 }
 
 .search-button {
-    vertical-align: top;
+    vertical-align: center;
     width: 25px;
-    height: 25px;
+    height: 20px;
     border-radius: 10px;
     border: none;
     position: relative;
-    right: 3px;
+    right: 40px;
     cursor: pointer;
-    color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .search-button:hover {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
+}
+
+.search-icon {
+    position: relative;
+    top: 1px;
+    height: 15px;
 }
 
 
