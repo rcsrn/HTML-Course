@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(13, 17, 23);;
+}
+
+.top-container {
+    height: 25vh;
+}
+
+.second-section-container {
+    text-align: center;
+    height: 50vh;
+}
+
+.logo {
+    margin-top: 0px;
+    font-size: 90px;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+.third-section-container {
+    height: 25vh;
+}
