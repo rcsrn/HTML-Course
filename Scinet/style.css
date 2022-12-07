@@ -4,6 +4,26 @@ body {
 
 .top-container {
     height: 25vh;
+    text-align: right;
+}
+
+.register-button, 
+.login-button {
+    background-color: rgb(120, 103, 81);
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 22px;
+    margin-top: 15px;
+}
+
+.register-button:hover, 
+.login-button:hover {
+    background-color: rgb(99, 90, 77);
 }
 
 .second-section-container {
@@ -13,8 +33,35 @@ body {
 
 .logo {
     margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 90px;
     font-family: 'Fredoka One', cursive;
+    color:rgb(192, 144, 77);
+}
+
+.search-bar {
+    text-indent: 0.5em;
+    font-size: 18px;
+    width: 528px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-button {
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    right: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-button:hover {
+    background-color: rgb(224, 224, 224);
 }
 
 
